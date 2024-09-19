@@ -1,0 +1,52 @@
+{
+	"tusk2":
+	{
+		"name" :
+		{
+			"plural" : "Tuskarr Hunters",
+			"singular" : "Tuskarr Hunter"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 16
+		},
+		"faction" : "limes",
+		"aiValue" : 198,
+		"attack" : 7,
+		"hasDoubleWeek" : true,
+         "cost" :
+		{
+			"gold" : 160
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 6,
+		"fightValue" : 160,
+		"horde" : 6,
+		"graphics" :
+		{
+			"animation" : "limes/battle/tusk2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "limes/map/tusk2mini.def",
+			"iconSmall" : "limes/iconsSmall/tusk2s.bmp",
+			"iconLarge" : "limes/iconsBig/tusk2l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 9,
+		"hitPoints" : 12,
+        "level" : 2,
+		"sound" :
+		{
+			"attack" : "limes/tuskatk.wav",
+			"defend" : "limes/tuskblk.wav",
+			"killed" : "limes/tuskdie.wav",
+			"move": "limes/tuskwlk.wav",
+			"wince" : "limes/tuskhit.wav"
+		},
+		"speed" : 5
+	}
+}

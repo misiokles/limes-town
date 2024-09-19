@@ -1,0 +1,75 @@
+{
+	"giant1":
+	{
+		"name" :
+		{
+			"plural" : "Tundra Giants",
+			"singular" : "Tundra Giant"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "limes",
+		"aiValue" : 5642,
+		"attack" : 22,
+		"cost" :
+		{
+			"gold" : 2750,
+			"crystal" : 1
+		},
+		"damage" :
+		{
+			"max" : 55,
+			"min" : 35
+		},
+		"defense" : 16,
+		"fightValue" : 4435,
+		"graphics" :
+		{
+			"animation" : "limes/battle/giant1.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "limes/map/giant1mini.def",
+			"iconSmall" : "limes/iconsSmall/giant1s.bmp",
+			"iconLarge" : "limes/iconsBig/giant1l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 250,
+		"level" : 7,
+	    "doubleWide" : true,		
+		"upgrades":
+		[
+			"giant2"
+		],
+		"sound" :
+		{
+			"attack" : "limes/giantatk.wav",
+			"defend" : "limes/gianthit.wav",
+			"killed" : "limes/giantdie.wav",
+			"move" : "limes/giantwlk.wav",
+			"wince" : "limes/gianthit.wav"
+		},
+		"speed" : 8,
+		"abilities" :
+		{
+
+		"fearless" :
+			{
+				"type" : "FEARLESS"
+			 },
+			"KING2" :
+			{
+				"type" : "KING",
+				"val" : 2
+			},
+			"enchanted" : 
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.bloodlust",
+				"val" : 1
+			}
+		}
+	}
+}

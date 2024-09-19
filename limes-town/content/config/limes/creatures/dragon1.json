@@ -1,0 +1,64 @@
+{
+	"dragon1":
+	{
+		"name" :
+		{
+			"plural" : "Icebone Dragons",
+			"singular" : "Icebone Dragon"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "limes",
+		"aiValue" : 5212,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 320
+			
+		},
+		"damage" :
+		{
+			"max" : 15,
+			"min" : 9
+		},
+		"defense" : 12,
+		"fightValue" : 3952,
+		"graphics" :
+		{
+			"animation" : "limes/battle/dragon1.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "limes/map/dragon1mini.def",
+			"iconSmall" : "limes/iconsSmall/dragon1s.bmp",
+			"iconLarge" : "limes/iconsBig/dragon1l.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+		"growth" : 4,
+	    "doubleWide" : true,		
+		"hitPoints" : 32,
+		"level" : 4,
+		"upgrades":
+		[
+			"dragon2"
+		],
+		"sound" :
+		{
+			"attack" : "limes/drgatk.wav",
+			"defend" : "limes/drghit.wav",
+			"killed" : "limes/drgdie.wav",
+			"move": "limes/drgwlk.wav",
+			"wince" : "limes/drghit.wav",
+		},
+		"speed" : 5,
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
+			"IS_UNDEAD" : {
+				"type" : "UNDEAD"
+			}
+		}		
+	}
+}

@@ -1,0 +1,83 @@
+{
+	"nymph2":
+	{
+		"name" :
+		{
+			"plural" : "Winter Nymphs",
+			"singular" : "Winter Nymph"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 8
+		},
+		"faction" : "limes",
+		"aiValue" : 700,
+		"attack" : 15,
+		"cost" :
+		{
+			"gold" : 700
+		},
+		"damage" :
+		{
+			"max" : 20,
+			"min" : 14
+		},
+		"defense" : 8,
+		"fightValue" : 680,
+		"graphics" :
+		{
+			"animation" : "limes/battle/nymph2.def",
+			"map" : "limes/map/nymph2mini.def",
+			"iconSmall" : "limes/iconsSmall/nymph2s.bmp",
+			"iconLarge" : "limes/iconsBig/nymph2l.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+	
+		},
+	        "doubleWide" : true,
+                "growth" : 3,
+		"hitPoints" : 60,
+		"level" : 5,
+		"sound" :
+		{
+			"attack" : "limes/nymphatk.wav",
+			"defend" : "limes/nymphhit.wav",
+			"killed" : "limes/nymphdie.wav",
+			"move": "limes/nymphwlk.wav",
+			"wince" : "limes/nymphhit.wav"
+ 		},
+		"speed" : 12,
+		"abilities" :
+		{
+            "extraAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_ATTACK"
+				},
+				"values" : [0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [0, 0, 0, 1, 1, 1, 2, 2, 2, 2]
+			}
+		]	
+	}
+}

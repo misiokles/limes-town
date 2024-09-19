@@ -1,0 +1,243 @@
+{
+	"ofSeprinteer" :
+	{
+		"texts" :
+		{
+			"name" : "Seprinteer",
+			"biography" : "Seprinteer w mlodosci uczestniczyl w wielu wyprawach wraz z innymi goblinami z Krewlod. W czasie jednej z nich znalazl, ukryty w glebokiej jaskini, miotacz. Bardzo szybko nauczyl sie go obslugiwac. Dzierzac swoja nowa bron mogl wedrowac dokad tylko chcial, bo zaden potwor nie byl dla niego wystarczajacym wyzwaniem. Naturalnym bylo, ze wstapil do armii Kastore'a jako wysokiej rangi przywodca.", 
+			"specialty" :
+			{
+				"description" : "Bonus of Foot Soldiers.",
+				"tooltip" : "",
+				"name" : "Foot Soldiers"
+			}
+		}
+	},
+
+	"ofJulian" :
+	{
+		"texts" :
+		{
+			"name" : "Julian",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "Bonus of Jump Soldier",
+				"tooltip" : "",
+				"name" : "Jump Soldier"
+			}
+		}
+	},
+	
+	"ofMeltes" :
+	{
+		"texts" :
+		{
+			"name" : "Meltes",
+			"biography" : "Melthes jest bratem Demeera, jednak w przeciwienstwie do niego nigdy nie przepadal za magia i czarnoksieznikami z Nighon, wiec gdy tylko nadarzyla sie okazja uciekl ze swojej ojczyzny do Dejii. Jego ponadprzecietna rezystencja na magie szybko zostala zauwazona przez Kastore'a, ktory mianowal go generalem.",
+			"specialty" :
+			{
+				"description" : "Bonus of Armorer",
+				"tooltip" : "",
+				"name" : "Armorer"
+			}
+		}
+	},
+
+	"ofSinghel" :
+	{
+		"texts" :
+		{
+			"name" : "Don Singhel",
+			"biography" : "Chociaż posiada niezwykłe jak na zombie umiejętności (a przede wszystkim potrafi myśleć i planować!). W Dejii uchodził tylko za jednego z żołnierzy. Don Singhel przyłączył się do Kastore'a tak szybko jak tylko zdołał",
+			"specialty" :
+			{
+				"description" : "Bonus of Cyber Deads",
+				"tooltip" : "",
+				"name" : "Cyber Dead"
+			}
+		}
+	},
+	
+	"ofNiclas" :
+	{
+		"texts" :
+		{
+			"name" : "Niclas",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "+1 Gem per day",
+				"tooltip" : "",
+				"name" : "+1 Gem"
+			}
+		}
+	},
+	
+	"ofCharity" :
+	{
+		"texts" :
+		{
+			"name" : "Charity",
+			"biography" : "Charity była wielką nekromantką, ale po ataku diabłów na Antadarich jej gildia została doszczętnie zniszczona. Błąkała się po świecie, aż do momentu, kiedy król Kastore zaproponował jej przyłączenie się do jego armii.",
+			"specialty" :
+			{
+				"description" : "Bonus of Tanks",
+				"tooltip" : "{Âîçäóříű?Ůčň}\r\n\r\nČńďîëüçóĺň çŕęëčíŕíčĺ Âîçäóříű?Ůč??óëó÷řĺííűě ýôôĺęňîě, îńíîâŕííűě íŕ óđîâíĺ ăĺđî˙ ?ńđŕâíĺíč??óđîâíĺ?öĺëč (áîíó?âűřĺ ďđ?čńďîëüçîâŕíč?íŕ ńëŕáűő ńóůĺńňâŕ?.",
+				"name" : "Tanks"
+			}
+		}
+	},
+
+	"ofSunni" :
+	{
+		"texts" :
+		{
+			"name" : "Sunni",
+			"biography" : "Rodzina Sunni od pokoleń mieszka w Deyji. Sunni od dziecka marzyła o odkrywaniu świata i o dokonywaniu wielkich czynów, jednak jako goblin mogła pełnić u nekromantów rolę co najwyżej niepozbawionej własnej woli służącej. Natomiast brak doświadczenia w walce sprawia, że nigdy by nie zdobyła szacunku wśród goblinów z Krewlodu. Dołączenie do armii Kastore'a to dla niej doskonała okazja żeby udowodnić swoją wartość.",
+			"specialty" :
+			{
+				"description" : "Bonus of Scouting",
+				"tooltip" : "{Ěŕňđîń??Ăîëîâîđĺçű}\r\n\r\nÓâĺëč÷ĺíčĺ ďŕđŕěĺňđîâ ŕňŕę??çŕůčňű Ěŕňđîńîâ ?Ăîëîâîđĺçî?çŕ ęŕćäűé óđîâĺí? äîńňčăíóňű?ďîńë?2-ăî.",
+				"name" : "Scouting"
+			}
+		}
+	},
+
+
+	"ofKastore" : 
+	{
+		"texts" :
+		{
+			"name" : "Kastore",
+			"biography" : "Kastore nie chce wyjawić swoim poddanym jego pochodzenia. Wiadomo natomiast, że jest potężnym elfem-czarnoksiężnikiem znającym wiele sekretów Starożytnych. Przed powstaniem Niebiańskich Kuźni był królem Dejii. Planuje zdobyć świat przy pomocy Starożytnej broni i w dążeniu do celu nie cofnie się przed niczym.",
+			"specialty" :
+			{
+				"description" : "Bonus of Chain Lightning",
+				"tooltip" : "{Ęëîí}\r\n\r\nĎĺđâűé Ęëîí çŕ áčňâ?ńňîč?äâîéíó?öĺíó ?čěĺĺ?ňđîéíî?ýôôĺęň.",
+				"name" : "Chain Lightning"
+			}
+		}
+	},
+
+	"ofRengist" :
+	{
+		"texts" :
+		{
+			"name" : "Rengist Obokaaz",
+			"biography" : "Jego bratem był Winston Boragus. Po dojściu do władzy Kilgora, Rengist zdał sobie sprawę, że jeśli nie chce podzielić losu swojego brata, to musi opuścić Krewlod. Zdecydował się dołączyć do tworzonej przez Kastore'a armii, licząc na to, że z pomocą nowej technologii uda mu się pomścić brata.", 
+			"specialty" :
+			{
+				"description" : "Bonus of Stringers",
+				"tooltip" : "{Äóőč Îęĺŕíŕ ?Ŕńńčäű}\r\n\r\nÓâĺëč÷ĺíčĺ ďŕđŕěĺňđîâ ŕňŕę??çŕůčňű Äóőî?Îęĺŕíŕ ?Ŕńńčäî?çŕ ęŕćäűé óđîâĺí? äîńňčăíóňű?ďîńë?4-ăî.",
+				"name" : "Stringers"
+			}
+		}
+	},
+
+	"ofMinore" :
+	{
+		"texts" :
+		{
+			"name" : "Minore",
+			"biography" : "Minoure od zawsze lubiła igrać umysłami wrogów, przez co zawsze potrafiła wyjść nawet z najgorszej opresji. Wygnana z rodzinnej Bracady za praktykowanie niedozwolonej magii, znalazła miejsce u boku Kastora, który docenił jej nietypowe zdolności mianując ją na dowódcę swojej armii.",
+			"specialty" :
+			{
+				"description" : "Bonus of Berserk",
+				"tooltip" : "{Íŕďŕäĺíčĺ}\r\n\r\n+5% çŕ ęŕćäűé óđîâĺí??ďîęŕçŕňĺëţ íŕâűęŕ íŕďŕäĺíč˙.",
+				"name" : "Berserk"
+			}
+		}
+	},
+
+	"ofTarkin" :
+	{
+		"texts" :
+		{
+			"name" : "Tarkin",
+			"biography" : "Kiedyś Tarkin był inżynierem na usługach Eeofolu. Po przegranej wojnie z Erathią uciekł do Deyji, by tam spotkać Kastore'a budującego swą armię. Zafascynowany technologią Starożytnych bez wahania przyłączył się do planu odbudowy Niebiańskich Kuźni.",
+
+			"specialty" :
+			{
+				"description" : "Bonus of Land Mine",
+				"tooltip" : "{Íŕďŕäĺíčĺ}\r\n\r\n+5% çŕ ęŕćäűé óđîâĺí??ďîęŕçŕňĺëţ íŕâűęŕ íŕďŕäĺíč˙.",
+				"name" : "Land Mine"
+			}
+		}
+	},
+
+	"ofMaximus" :
+	{
+		"texts" :
+		{
+			"name" : "Maximus",
+			"biography" : "Niewiele wiadomo o prawej ręce króla Deyji - krążą plotki, że jego twarz została zdeformowana przez technologię Niebiańskiej Kuźni. Nikt jednak nie może podważyć jego mistrzowskich wręcz zdolności taktycznych.",
+			"specialty" :
+			{
+				"description" : "Bonus of Tactics",
+				"tooltip" : "{Çîëîňî}\r\n\r\n+350 çîëîňű?ęŕćäűé äĺíü",
+				"name" : "Tactics"
+			}
+		}
+	},
+
+	"ofLeane" :
+	{
+		"texts" :
+		{
+			"name" : "Leane",
+			"biography" : "Leane w przeciwieństwie do innych goblinów nigdy nie fascynowała się sztuką wojenną. Dużo bardziej wolała czytać książki o magii. Chciała zostać jednym z czarodziejek z Avlee, jednak jak nie trudno się domyślać odmówiono jej. Jej jedyną okazją na spełnienie wojenne okazał się Kastore i Niebiańska Kuźnia.",
+			"specialty" :
+			{
+				"description" : "Bonus of Sorcery",
+				"tooltip" : "{Îăíĺííűé Řŕđ}\r\n\r\nČńďîëüçóĺň çŕęëčíŕíčĺ Îăíĺííűé Řŕ??óëó÷řĺííűě ýôôĺęňîě, îńíîâŕííűě íŕ óđîâíĺ ăĺđî˙ ?ńđŕâíĺíč??óđîâíĺ?öĺëč (áîíó?âűřĺ ďđ?čńďîëüçîâŕíč?íŕ ńëŕáűő ńóůĺńňâŕ?.",
+				"name" : "Sorcery"
+			}
+		}
+	},
+
+	"ofCistrict" : 
+	{
+		"texts" :
+		{
+			"name" : "Cistrict",
+			"biography" : "Cistrict był wybitnym magiem służącym w siłach Deyii. Zazdrość jego współbrateńców spowodowała spisek przeciwko jego osobie. Na tajnej radzie magów, spiskowcy postanowili obrócić jego ciało w proch. Niestety operacja zakończyła się klęską. Cistrict wytrzymał atak i uciekł z rady. Niemniej jednak jego ciało uległo znaczemu uszkodzeniu. Pomoc znalazł w Kuźni, gdzie jego uszczerbki zastąpiono najnowszą nieznaną dotąd technologią. W zamian Cistrict został dowódcą wojsk Kastora, obiecując mu bezgraniczne posłuszeństwo.",
+			"specialty" :
+			{
+				"description" : "Bonus of Intelligence",
+				"tooltip" : "{Đŕçâĺäęŕ}\r\n\r\n+3 ?äŕëüíîńň?îáçîđŕ.",
+				"name" : "Intelligence"
+			}
+		}
+	},
+
+	"ofKaren" :
+	{
+		"texts" :
+		{
+			"name" : "Karen",
+			"biography" : "undetermined",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "{Âîëřĺáńňâî}\r\n\r\n+5% çŕ ęŕćäűé óđîâĺí??ďîęŕçŕňĺëţ íŕâűęŕ âîëřĺáńňâŕ.",
+				"name" : "+350 Gold"
+			}
+		}
+	},
+
+	"ofResurrecta" :
+	{
+		"texts" :
+		{
+			"name" : "Resurrecta",
+			"biography" : "Resurrecta nie chce wyjawić nikomu swojego pochodzenia. Planuje odtworzyć system bram Starożytnych. Jest jedną z niewielu osób, które znały Kastore'a przed jego ekspansją na Antadarich i być może jedyną, która może go powstrzymać.",
+			"specialty" :
+			{
+				"description" : "Bonus of resurrection",
+				"tooltip" : "{Çŕáűâ÷čâîńňü}\r\n\r\nÓâĺëč÷čâŕĺ?äëčňĺëüíîńňü çŕęëčíŕí? Çŕáűâ÷čâîńňü âäâî?",
+				"name" : "Resurrection"
+			}
+		}
+	}
+}

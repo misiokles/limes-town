@@ -1,0 +1,55 @@
+{
+	"ofNiclas" :
+	{
+		"class" : "nomadhero",
+
+		"images" :
+		{
+			
+			"specialtySmall" : "limes/heroes/niclas/spec-small.png",
+			"specialtyLarge" : "limes/heroes/niclas/spec-large.png",
+			"large" : "limes/heroes/niclas/portrait-large.png",
+			"small" : "limes/heroes/niclas/portrait-small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "cat1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "tusk1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "penguin1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"gems" : {
+					"subtype" : "resource.gems",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 1
+				}
+			}
+		}
+	}
+}

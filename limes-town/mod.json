@@ -1,0 +1,71 @@
+{
+	"name" : "Limes",
+	"description" : "Limes Town",
+	"author" : "GarretDRazor from DF2, acidchalk, ROFTL Team",
+	"contact" : "",
+	"version" : "0.3",
+	"modType" : "Town",
+	"compatibility" :
+	{
+		"min" : "1.5.0"
+	},	
+	"changelog" :
+	{
+		"0.3"   : [ "Update to vcmi-1.5 format" ]
+	},
+	"factions" :
+	[
+		"config/limes/town/buildings.json",
+		"config/limes/town/faction.json",
+		"config/limes/town/siege.json",
+		"config/limes/town/spells.json",
+		"config/limes/town/structures.json",
+		"config/limes/town/puzzle.json"
+
+	],
+	"creatures" :
+	[
+		"config/limes/creatures/cat1.json",
+		"config/limes/creatures/cat2.json",
+		"config/limes/creatures/penguin1.json",
+		"config/limes/creatures/penguin2.json",
+        "config/limes/creatures/tusk1.json",
+		"config/limes/creatures/tusk2.json",
+		"config/limes/creatures/elemental1.json",
+		"config/limes/creatures/elemental2.json",
+		"config/limes/creatures/nymph1.json",
+		"config/limes/creatures/nymph2.json",
+		"config/limes/creatures/dragon1.json",
+		"config/limes/creatures/dragon2.json",
+		"config/limes/creatures/giant1.json",
+		"config/limes/creatures/giant2.json",
+	],
+	"heroClasses" :
+	[
+		"config/limes/heroes/nomadhero.json",
+		"config/limes/heroes/ofTechnik.json"
+
+	],
+
+	"heroes" :
+	[
+		"config/limes/heroes/seprinteer.json",
+		"config/limes/heroes/julian.json",
+		"config/limes/heroes/Meltes.json",
+		"config/limes/heroes/singhel.json",
+		"config/limes/heroes/niclas.json",
+		"config/limes/heroes/charity.json",
+		"config/limes/heroes/sunni.json",
+		"config/limes/heroes/kastore.json",
+		"config/limes/heroes/rengist.json",
+		"config/limes/heroes/minore.json",
+		"config/limes/heroes/leane.json",
+		"config/limes/heroes/tarkin.json",
+		"config/limes/heroes/maximus.json",
+		"config/limes/heroes/cistrict.json",
+		"config/limes/heroes/karen.json",
+		"config/limes/heroes/resurrecta.json",
+		"config/limes/heroes/texts-info3.json"
+	],
+	"objects" : [ "config/limes/dwellings" ]
+}

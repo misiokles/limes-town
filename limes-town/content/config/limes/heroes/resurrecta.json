@@ -1,0 +1,61 @@
+{
+	"ofResurrecta" :
+	{
+		"class" : "ofTechnik",
+		"female" : true,
+
+		"images" :
+		{
+			"specialtySmall" : "limes/heroes/resurrecta/spec-small.png",
+			"specialtyLarge" : "limes/heroes/resurrecta/spec-large.png",
+			"large" : "limes/heroes/resurrecta/portrait-large.png",
+			"small" : "limes/heroes/resurrecta/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"iceBolt"
+		],
+		"army" :
+		[
+			{
+				"creature" : "cat1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "tusk1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "penguin1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"chainLightning" : {
+					"subtype" : "spell.chainLightning",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5
+				}
+			}
+		}
+	}
+}

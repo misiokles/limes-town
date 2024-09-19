@@ -1,0 +1,50 @@
+{
+	"ofJulian" :
+	{
+		"class" : "nomadhero",
+
+		"images" :
+		{
+			"specialtySmall" : "limes/heroes/julian/spec-small.png",
+			"specialtyLarge" : "limes/heroes/julian/spec-large.png",
+			"large" : "limes/heroes/julian/portrait-large.png",
+			"small" : "limes/heroes/julian/portrait-small.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "cat1",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "tusk1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "tusk1",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "tusk1"
+		}
+	}
+}
+

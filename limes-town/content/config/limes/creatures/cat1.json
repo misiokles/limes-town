@@ -1,0 +1,57 @@
+{
+	"cat1":
+	{
+		"name" :
+		{
+			"plural" : "Frost Tigers",
+			"singular" : "Frost Tiger"
+		},
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "limes",
+		"aiValue" : 75,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 75
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 6,
+		"fightValue" : 110,
+		"graphics" :
+		{
+			"animation" : "limes/battle/cat1.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "limes/map/cat1mini.def",
+			"iconSmall" : "limes/iconsSmall/cat1s.bmp",
+			"iconLarge" : "limes/iconsBig/cat1l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+
+		"growth" : 14,
+		"hitPoints" : 10,
+		"horde" : 7,
+		"level" : 1,
+	    "doubleWide" : true,			
+		"upgrades":
+		[
+			"cat2"
+		],
+		"sound" :
+		{
+			"attack" : "limes/catatk.wav",
+			"defend" : "limes/catblk.wav",
+			"killed" : "limes/catdie.wav",
+			"move": "limes/catwlk.wav",
+			"wince" : "limes/cathit.wav"
+		},
+		"speed" : 4
+	}
+}

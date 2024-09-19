@@ -1,0 +1,53 @@
+{
+	"cat2":
+	{
+		"name" :
+		{
+			"plural" : "Glacial Tigers",
+			"singular" : "Glacial Tiger"
+		},
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 20
+		},
+		"faction" : "limes",
+		"aiValue" : 115,
+		"attack" : 3,
+		"cost" :
+		{
+			"gold" : 90
+		},
+		"damage" :
+		{
+			"max" : 3,
+			"min" : 2
+		},
+		"defense" : 7,
+		"fightValue" : 130,
+		"graphics" :
+		{
+			"animation" : "limes/battle/cat2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "limes/map/cat2mini.def",
+			"iconSmall" : "limes/iconsSmall/cat2s.bmp",
+			"iconLarge" : "limes/iconsBig/cat2l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+	
+		"growth" : 14,
+		"hitPoints" : 10,
+		"horde" : 7,
+		"level" : 1,
+	    "doubleWide" : true,			
+		"sound" :
+		{
+			"attack" : "limes/catatk.wav",
+			"defend" : "limes/catblk.wav",
+			"killed" : "limes/catdie.wav",
+			"move": "limes/catwlk.wav",
+			"wince" : "limes/cathit.wav"
+		},
+		"speed" : 6
+	}
+}

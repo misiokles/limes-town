@@ -1,0 +1,55 @@
+{
+	"penguin1":
+	{
+		"name" :
+		{
+			"plural" : "Young Penguins",
+			"singular" : "Young penguin"
+		},
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+		"faction" : "limes",
+		"aiValue" : 293,
+		"attack" : 9,
+		"hasDoubleWeek" : true,
+        "cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			"max" : 7,
+			"min" : 4
+		},
+		"defense" : 6,
+		"fightValue" : 260,
+		"graphics" :
+		{
+			"animation" : "limes/battle/penguin1.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "limes/map/penguin1mini.def",
+			"iconSmall" : "limes/iconsSmall/penguin1s.bmp",
+			"iconLarge" : "limes/iconsBig/penguin1l.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+		"growth" : 7,
+		"hitPoints" : 20,
+		"level" : 3,
+		"upgrades":
+		[
+			"penguin2"
+		],
+		"sound" :
+		{
+			"attack" : "limes/penatk.wav",
+			"defend" : "limes/penhit.wav",
+			"killed" : "limes/pendie.wav",
+			"move": "limes/penwlk.wav",
+			"wince" : "limes/penhit.wav"
+		},
+		"speed" : 6
+	}
+}

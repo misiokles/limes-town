@@ -1,0 +1,53 @@
+{
+	"ofCistrict" :
+	{
+		"class" : "ofTechnik",
+		"female" : true,
+
+		"images" :
+		{
+			
+			"specialtySmall" : "limes/heroes/cistrict/spec-small.png",
+			"specialtyLarge" : "limes/heroes/cistrict/spec-large.png",
+			"large" : "limes/heroes/cistrict/portrait-large.png",
+			"small" : "limes/heroes/cistrict/portrait-small.png"
+		},
+
+		"spellbook" :
+		[
+			"dispel"
+		],
+
+
+		"army" :
+		[
+			{
+				"creature" : "tusk1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "tusk1",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "tusk1",
+				"max" : 10,
+				"min" : 5
+			},
+		],
+
+		"skills" : 
+		[
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "tusk1"
+		}
+	}
+}

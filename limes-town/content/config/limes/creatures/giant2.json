@@ -1,0 +1,70 @@
+{
+	"giant2":
+	{
+		"name" :
+		{
+			"plural" : "Frost Giants",
+			"singular" : "Frost Giant"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "limes",
+		"aiValue" : 4000,
+		"attack" : 25,
+		"cost" :
+		{
+			"gold" : 5000,
+			"crystal" : 3
+		},
+		"damage" :
+		{
+			"max" : 60,
+			"min" : 50
+		},
+		"defense" : 20,
+		"fightValue" : 4635,
+		"graphics" :
+		{
+			"animation" : "limes/battle/giant2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "limes/map/giant2mini.def",
+			"iconSmall" : "limes/iconsSmall/giant2s.bmp",
+			"iconLarge" : "limes/iconsBig/giant2l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 1,
+		"hitPoints" : 300,
+		"level" : 7,
+	    "doubleWide" : true,		
+		"sound" :
+		{
+			"attack" : "limes/giantatk.wav",
+			"defend" : "limes/gianthit.wav",
+			"killed" : "limes/giantdie.wav",
+			"move" : "limes/giantwlk.wav",
+			"wince" : "limes/gianthit.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+		"fearless" :
+			{
+				"type" : "FEARLESS"
+			 },
+		"KING3" :
+			{
+				"type" : "KING",
+				"val" : 3
+			},
+			"enchanted" : 
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.bloodlust",
+				"val" : 1
+			}
+		}
+	}
+}

@@ -1,0 +1,75 @@
+{
+	"elemental2":
+	{
+		"name" :
+		{
+			"plural" : "Ice Elementals",
+			"singular" : "Ice Elemental"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+		"faction" : "limes",
+		"aiValue" : 729,
+		"attack" : 11,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 450
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 9
+		},
+		"defense" : 9,
+		"fightValue" : 689,
+		"graphics" :
+		{
+			"animation" : "limes/battle/elemental2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "limes/map/elemental2mini.def",
+			"iconSmall" : "limes/iconsSmall/elemental2s.bmp",
+			"iconLarge" : "limes/iconsBig/elemental2l.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "limes/battle/projectile/rock.def",
+			    "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+        },
+
+		"growth" : 4,
+		"hitPoints" : 45,
+		"level" : 4,
+	    "shots" : 10,		
+		"sound" :
+		{
+			"attack" : "limes/elematk.wav",
+			"defend" : "limes/elemblk.wav",
+			"killed" : "limes/elemdie.wav",
+			"move" : "limes/elemwlk.wav",
+			"wince" : "limes/elemhit.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			}
+		}
+	}
+}

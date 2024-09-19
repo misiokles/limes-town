@@ -1,0 +1,78 @@
+{
+	"elemental1":
+	{
+		"name" :
+		{
+			"plural" : "Stone Elementals",
+			"singular" : "Stone Elemental"
+		},
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 10
+		},
+		"faction" : "limes",
+		"aiValue" : 350,
+		"attack" : 10,
+		"hasDoubleWeek" : true,
+                "cost" :
+		{
+			"gold" : 350
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 9
+		},
+		"defense" : 8,
+		"fightValue" : 559,
+		"graphics" :
+		{
+			"animation" : "limes/battle/elemental1.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "limes/map/elemental1mini.def",
+			"iconSmall" : "limes/iconsSmall/elemental1s.bmp",
+			"iconLarge" : "limes/iconsBig/elemental1l.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "limes/battle/projectile/rock.def",
+			    "attackClimaxFrame" : 8,
+				"offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -92,
+					"middleX" : 58,
+					"middleY" : -79,
+					"lowerX" : 29,
+					"lowerY" : -14
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			},
+        },
+		"growth" : 4,
+		"hitPoints" : 40,
+		"level" : 4,
+	    "shots" : 8,
+		"upgrades":
+		[
+			"elemental2"
+		],
+		"sound" :
+		{
+			"attack" : "limes/elematk.wav",
+			"defend" : "limes/elemblk.wav",
+			"killed" : "limes/elemdie.wav",
+			"move" : "limes/elemwlk.wav",
+			"wince" : "limes/elemhit.wav"
+		},
+		"speed" : 9,
+		"abilities" :
+		{
+			"canshoot" :
+			{
+				"type" : "SHOOTER"
+			}
+		}
+	}
+}

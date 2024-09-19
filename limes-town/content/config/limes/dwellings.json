@@ -1,0 +1,80 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"lmPenguinRuins" : {
+				"name" : "Penguin Ruins",
+				"creatures" : [[ "penguin1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "limes/adventure-map/dwelling-1.def",
+						"mask" : [ "VVV", "VVV", "VVA" ]
+					}
+				}
+			},
+			"lmFrostsabreCaves" : {
+				"name" : "Frostsabre Caves",
+				"creatures" : [[ "cat1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "limes/adventure-map/dwelling-2.def",
+						"mask" : [ "VVV", "VVV", "VAB" ]
+
+					}
+				}
+			},
+			"lmWorgpen" : {
+				"name" : "Worg Pen",
+				"creatures" : [[ "nymph1" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "limes/adventure-map/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"lmAirstrip" : {
+				"name" : "Airstrip",
+				"creatures" : [[ "tusk1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "limes/adventure-map/dwelling-4.def",
+						"mask" : [ "VVV", "VBB", "BAV" ]
+					}
+				}
+			},
+			"lmStingersPost" : {
+				"name" : "Stingers Post",
+				"creatures" : [[ "elemental1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "limes/adventure-map/dwelling-5.def",
+						"mask" : [ "VVV", "VBB", "BBA" ]
+					}
+				}
+			},
+			"lmAncientRefinery" : {
+				"name" : "Shadow Council",
+				"creatures" : [[ "dragon1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "limes/adventure-map/dwelling-6.def",
+						"mask" : [ "VVV", "VBV", "VAB" ]
+					}
+				}
+			},
+			"lmGarage" : {
+				"name" : "giant Cave",
+				"creatures" : [[ "giant1" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "limes/adventure-map/dwelling-7.def",
+						"mask" : [ "VVV", "BBV", "VBA" ]
+					}
+				}
+			}
+		}		
+	}
+}

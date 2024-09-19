@@ -1,0 +1,88 @@
+{
+	"nymph1":
+	{
+		"name" :
+		{
+			"plural" : "Ice Nymphs",
+			"singular" : "Ice Nymph"
+		},
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 8
+		},
+		"faction" : "limes",
+		"aiValue" : 620,
+		"attack" : 13,
+		"cost" :
+		{
+			"gold" : 600
+		},
+		"damage" :
+		{
+			"max" : 15,
+			"min" : 10
+		},
+		"defense" : 6,
+		"fightValue" : 580,
+		"graphics" :
+		{
+			"animation" : "limes/battle/nymph1.def",
+			"map" : "limes/map/nymph1mini.def",
+			"iconSmall" : "limes/iconsSmall/nymph1s.bmp",
+			"iconLarge" : "limes/iconsBig/nymph1l.bmp",
+			"timeBetweenFidgets" : 1,
+			"animationTime" :
+			{
+				"walk" : 1.00,
+				"idle" : 10.00,
+				"attack" : 1.00
+			}
+	
+		},
+	        "doubleWide" : true,
+               "growth" : 3,
+		"hitPoints" : 50,
+		"level" : 5,
+                "upgrades":
+		[
+			"nymph2"
+		],
+		"sound" :
+		{
+			"attack" : "limes/nymphatk.wav",
+			"defend" : "limes/nymphhit.wav",
+			"killed" : "limes/nymphdie.wav",
+			"move": "limes/nymphwlk.wav",
+			"wince" : "limes/nymphhit.wav"
+ 		},
+		"speed" : 10,
+		"abilities" :
+		{
+            "extraAttack" :
+			{
+				"type" : "ADDITIONAL_ATTACK",
+				"val" : 1
+			}
+
+		},
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_ATTACK"
+				},
+				"values" : [0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [0, 0, 0, 1, 1, 1, 2, 2, 2, 2]
+			}
+		]	
+	}
+}
+

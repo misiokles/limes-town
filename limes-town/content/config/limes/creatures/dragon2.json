@@ -1,0 +1,59 @@
+{
+	"dragon2":
+	{
+		"name" :
+		{
+			"plural" : "Frost Dragons",
+			"singular" : "Frost Dragon"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "limes",
+		"aiValue" : 900,
+		"attack" : 32,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			"max" : 15,
+			"min" : 9
+		},
+		"defense" : 14,
+		"fightValue" : 718,
+		"graphics" :
+		{
+			"animation" : "limes/battle/dragon2.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "limes/map/dragon2mini.def",
+			"iconSmall" : "limes/iconsSmall/dragon2s.bmp",
+			"iconLarge" : "limes/iconsBig/dragon2l.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"growth" : 4,
+	    "doubleWide" : true,		
+		"hitPoints" : 32,
+		"level" : 4,
+		"sound" :
+		{
+			"attack" : "limes/drgatk.wav",
+			"defend" : "limes/drghit.wav",
+			"killed" : "limes/drgdie.wav",
+			"move": "limes/drgwlk.wav",
+			"wince" : "limes/drghit.wav",                    
+		},
+		"speed" : 7,
+		"abilities" : {
+			"FLYING_ARMY" : {
+				"type" : "FLYING"
+			},
+			"IS_UNDEAD" : {
+				"type" : "UNDEAD"
+			}
+		}		
+	}
+}
